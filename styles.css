@@ -1,9 +1,21 @@
-#banner{
-    background: url(images/maunga_club_cabin.jpg);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*.banner{
+    background: url(images/mountain_view_1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-}
+}*/
 
 
 
