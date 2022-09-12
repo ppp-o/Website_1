@@ -239,3 +239,16 @@ nav ul li a{
 .chalets-col:hover{
     transform: translateY(-7px);
 }
+
+.chalets-2 h1{
+    font-size: 40px;
+    color: #009688;
+    text-align: center;
+}
+
+
+.chalets-2 p{
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0;
+}
