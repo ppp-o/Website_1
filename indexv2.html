@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="description" content="maunga club">
+    <meta name="keywords" content="renting,cabins">
+    <meta name="author" content="Pavneet kaur">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maunga Club</title>
+    <link rel="stylesheet" href="stylesv2.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<!-- homepage -->
+<body>
+  <section id="banner">
+    <img style="size: 80%;" src ="img/Maunga_Club_white.png" height="200px" width="400px">
+    <div class="banner-text">
+        <h1>Find Your Peace</h1>
+        <p>Why wait when you can sign up now!</p>
+        <div class="banner-btn">
+          <a href=""><span></span>Find Out</a>
+          <a href=""><span></span>Contact us</a>
+        </div>
+    </div>
+  </section>
+  
+  <!-- <section id="membership">
+    <div class = "title-text">
+      <h1><b>Membership</b></h1>
+      <p>Sign Up Now</p>
+    </div>
+      <div class = membership-box>
+        </div class = "memberships">
+          <div class="membership text">
+            <p>to join as a club member, you'll have to email this following infromation to maunga club. 
+              Full name, physcial address (eg copy of power bill) and lastly proof of ID ( eg. your passport or drivers license).
+            </p>
+          </div>
+        </div>
+      </div>
+ </div>
+
+    <div class="memberships-img">
+      <img src="img/colleen-poster-color-blue.jpeg"alt="">
+    </div>
+  </div>
+</section> -->
+
+ <!-- membership -->
+<section id="membership" class="membership">
+    <h1>Sign Up now!</h1>
+    <p>To join as a club member, you'll have to email this following infromation to maunga club.<br>
+    <br> Full name, physcial address (eg copy of power bill) and <br>
+    lastly proof of ID ( eg. your passport or drivers license) <br>
+    <br> maunga club at: maungaclub@maungaclub.maungaclub<br>
+    <br>Membership will be confirmed by email. Additional information about the Club and accommodation (membership letter) will be sent by regular mail.
+    </p>
+</section> 
+
+<!-- chalets -->
+<section id="chalets">
+  <div class="title-text">
+    <p>CHALETS</p>
+    <h1>Our three chalets</h1>
+  </div>
+  <div class="chalets-row">
+    <div class="chalets-col">
+      <div class="user">
+        <img src="img/cabin_exteriorrrrrrr.jpg" >
+        <div class="user-info">
+          <h4>Kakapo</h4>
+          <small>krn norman</small>
+        </div>
+      </div>
+      <p>This chalet is the largest out of all. <br>It has the largest kitchen, dining and living area<br> Max num of children: 30 ,Max num of adults: 10</p>
+    </div>
+
+      <div class="chalets-col">
+        <div class="user">
+          <img src="img/cabinnnnnn_exterior.jpg" >
+          <div class="user-info">
+            <h4>Pukeko</h4>
+            <small>Great for large families </small>
+          </div>
+        </div>
+        <p>max = 40 chilfren and more</p>
+      </div>
+      <div class="chalets-col">
+        <div class="user">
+          <img src="img/ccccccchalet_exterior.jpg" >
+          <div class="user-info">
+            <h4>Kereru</h4>
+            <small>Ricky </small>
+          </div>
+        </div>
+        <p>Great option for a family as it has 2 bedrooms and a separate living area. <br> This makes the chalet perfect for a fmaily of 2-4 children. <br> Max num of children: 4 ,Max num of adults: 2</p>
+  </div>
+</section>
+
+<section class = "gallery">
+  <h1> Our Gallery</h1>
+
+</section>
+
+<!-- footer -->
+  <section id="contact" class="contact">
+    <h1><b>contact us</b><h1><br>
+    <p>email : maungaclub@maungaclub.maungaclub</p><br>
+    <p><small>&copy; Maunga Club - website by Pavneet</i></small></p>
+  </section>
+
+
+<!-- side nav bar -->
+  <div id="sideNav">
+      <nav>
+        <ul>
+            <li><a href="indexv2.html">HOME</a></li>
+            <li><a href=#chalets>CHALETS</a></li>
+            <li><a href=#gallery>GALLERY</a></li>
+            <li><a href=#membership>MEMBERSHIP</a></li>
+            <li><a href=#contact>CONTACT</a></li>
+        </ul>
+      </nav>
+  <div>
+    
+  <div id="menuBtn">
+    <img src="img/mena icon.png" height="50px" width="50px">
+  </div>
+
+  <script>
+    var menuBtn = document.getElementById('menuBtn')
+    var sideNav = document.getElementById('sideNav')
+    var menu = document.getElementById('menu')
+
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "img/mena icon.png";
+      }
+      else{
+        sideNav.style.right = "-250px";
+        menu.src = "img/mena icon.png";
+      }
+    }
+  </script> 
+
+</body>
+</html>
