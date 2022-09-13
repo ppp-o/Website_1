@@ -8,6 +8,10 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 /* background */
 #banner{
     background: linear-gradient(rgba(0,0,0,0.5),#009688),url("img/mountain_view_1.jpg");
