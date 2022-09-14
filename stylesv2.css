@@ -118,7 +118,7 @@ nav ul li a{
     text-align: center;
 }
 
-/** gallery */
+/** gallery **/
 .gallery{
     width: 80%;
     margin: auto;
@@ -150,9 +150,7 @@ nav ul li a{
     font-size: 30px;
 }
 
-.images-col{
-    
-}
+
 /** footer */
 
 .contact{
