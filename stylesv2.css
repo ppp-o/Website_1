@@ -118,8 +118,41 @@ nav ul li a{
     text-align: center;
 }
 
+/** gallery */
+.gallery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
 
+.img{
+    width: 80%;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+}
 
+.gallery-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery h1{
+    font-size: 70px;
+    color: #009688;
+}
+
+.gallery h2{
+    font-size: 30px;
+}
+
+.images-col{
+    
+}
 /** footer */
 
 .contact{
