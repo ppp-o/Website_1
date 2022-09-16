@@ -150,8 +150,13 @@ nav ul li a{
     font-size: 30px;
 }
 
+.gallery-col:hover{
+    transform: translateY(-7px);
+}
 
-/** footer */
+
+
+/** footer /contact */
 
 .contact{
     text-align: center;
@@ -162,9 +167,11 @@ nav ul li a{
 
 .contact h1{
     font-size: 50px;
+    color: #fff;
 }
 .contact p{
     font-size: 26px;
+    color: #fff;
 }
 /*title membership*/
 
