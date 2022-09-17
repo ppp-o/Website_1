@@ -111,13 +111,6 @@ nav ul li a{
     cursor: pointer;
 }
 
-/*membership section */
-#membership{
-    width: 100%;
-    padding: 70px 0;
-    text-align: center;
-}
-
 /** gallery **/
 
 .gallery{
@@ -143,15 +136,13 @@ nav ul li a{
 }
 
 .gallery h1{
-    font-size: 70px;
+    font-size: 50px;
     color: #009688;
 }
 
-.gallery h2{
+.gallerys h2{
     font-size: 30px;
 }
-
-
 
 
 
@@ -172,7 +163,44 @@ nav ul li a{
     font-size: 26px;
     color: #fff;
 }
-/*title membership*/
+
+/* memebership */ 
+
+.membership {
+    width: 89%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+}
+
+.membership h1{
+    font-size: 50px;
+    font-weight:600;
+    text-align: center;
+    color: #009688;
+}
+
+.membership p{
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+#membership{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+/* chalets */
+
+#chalets{
+    width: 100%;
+    padding: 70px 0;
+}
 
 .title-text {
     text-align: center;
@@ -191,40 +219,9 @@ nav ul li a{
 }
 
 
-
 .title-text h1{
     font-size: 50px;      
     text-align: center;              
-}
-
-
-.membership {
-    width: 89%;
-    margin: auto;
-    text-align: center;
-    padding-top:100px;
-}
-
-.membership h1{
-    font-size: 36px;
-    font-weight:600;
-    text-align: center;
-    color: #009688;
-}
-
-.membership p{
-    color: black;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-/* chalets */
-
-#chalets{
-    width: 100%;
-    padding: 70px 0;
 }
 
 .chalets-row{
