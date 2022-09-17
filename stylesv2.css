@@ -119,6 +119,7 @@ nav ul li a{
 }
 
 /** gallery **/
+
 .gallery{
     width: 80%;
     margin: auto;
@@ -191,19 +192,7 @@ nav ul li a{
     display: inline-block;
 }
 
-.title-text p::after{
-    content: '';
-    width: 50px;
-    height: 35px;
-    background: linear-gradient(#019587,#fff);
-    position: absolute;
-    top: -20px;
-    left: 0;
-    z-index: -1;
-    transform: rotate(10deg);
-    border-top-left-radius: 35px;
-    border-top-right-radius: 35px;
-}
+
 
 .title-text h1{
     font-size: 50px;      
@@ -278,6 +267,22 @@ nav ul li a{
 .user-info small{
     color: #009688;
 }
+
+/**chalets top logo design **/
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587,#fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
 .chalets-col:hover{
     transform: translateY(-7px);
 }
