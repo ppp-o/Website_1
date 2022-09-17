@@ -134,7 +134,7 @@ nav ul li a{
     padding-top: 50px;
 }
 
-.gallery-col{
+.gallerys-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -151,9 +151,7 @@ nav ul li a{
     font-size: 30px;
 }
 
-.gallery-col:hover{
-    transform: translateY(-7px);
-}
+
 
 
 
